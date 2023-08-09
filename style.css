@@ -1,0 +1,376 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lora', serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-image:url('wallpaperflare.com_wallpaper(1).jpg');
+    background-size: cover; /* Adjust to your preference */
+    background-position:  center;
+    background-repeat: no-repeat;
+    /* Fix the background to prevent scrolling */
+    background-attachment:fixed;
+    
+     
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+    
+   
+    
+
+}
+.navbar{
+    /* display: flex;   *//* side by side */
+    justify-content: space-between; /* to get space btw */
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    background-color: black;
+    opacity: 90%;
+    font-size: large;
+        
+
+    
+   
+    
+}
+
+
+.listitem{
+    display:inline-block;
+    margin: 9px 46px;
+    
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.listitem a:hover{
+    
+    color: brown;
+}
+
+.logo{
+    margin-left: 650px;
+}
+
+.list{
+    margin-left: 19%;
+}
+
+.bgimage{
+   /* Set the background image and its properties */
+  
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+    
+}
+.homie {
+   background-color: black;
+    opacity:80% ;
+   width: 400px;
+   height: 400px;
+   margin-top: 7%;
+   margin-left: 33%;
+   border-radius: 50%;
+   border: 4px dashed goldenrod;
+}
+
+.homie img{
+    color:goldenrod;
+    margin-top: 25vh;
+    margin-left:-4vh;
+    width: 450px;
+}
+
+.menu_container{
+
+    
+    background-color: rgb(0, 0, 0);
+    width: 1050px;
+    height: 900px;
+    margin-left: 9%;
+    margin-top: 7%;
+    position: absolute;
+    opacity: 95%;
+
+    
+}
+
+.slider img{
+    width: 300px;
+    height: 300px;
+    margin-left: 3%;
+    margin-top: 6%;
+    
+}
+
+
+
+  
+  .slider {
+    display: flex;
+    
+  }
+
+.menu_container h1{
+    text-align: center;
+    color: goldenrod;
+    margin-top: 5%;
+    font-size: xx-large;
+    
+}
+
+.menu_items1{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    
+    margin-left: 5%;
+    margin-top: -10px;
+    font-size: large;
+    
+}
+.menu_items1 ul{
+    list-style: disc;
+    padding: 10px;
+    line-height: 290%;
+    color: goldenrod;
+}
+
+
+.menu_items2{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -38%;
+    margin-left: 37.3%;
+    font-size: large;
+    
+}
+.menu_items2 ul{
+    list-style: disc;
+    padding: 10px;
+    line-height: 290%;
+    color: goldenrod;
+}
+
+.menu_items3{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -38%;
+    margin-left: 69.6%;
+    font-size: large;
+    
+}
+.menu_items3 ul{
+    list-style: disc;
+    padding: 8px;
+    line-height: 290%;
+    color: goldenrod;
+}
+
+.photo_container{
+
+    
+    background-color: rgb(0, 0, 0);
+    width: 1050px;
+    height: 1200px;
+    margin-left: 9%;
+    margin-top: 15%;
+    position: absolute;
+    opacity: 95%;
+
+    
+}
+#gallery{
+    
+    margin-top: 75%;
+}
+.photo_container h1{
+    color: goldenrod;
+    text-align: center;
+    margin-top: 5%;
+    font-size: xx-large;
+}
+.photo_container .img1{
+    width: 460px;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.img2{
+    width: 460px;
+    height: 300px;
+    margin-left: 2%;
+
+}
+.img3{
+    width: 460px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 5px;
+
+}
+.img4{
+    width: 460px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 40px;
+
+}
+
+.img5{
+    width: 460px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+.img6{
+    width: 460px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 4px;
+
+}
+
+
+.img1:hover{
+    box-shadow: 1px 1px 10px 5px gold;    
+}
+.img2:hover{
+    box-shadow: 1px 1px 10px 5px gold;    
+    
+}
+.img3:hover{
+    box-shadow: 1px 1px 10px 5px gold;    
+    
+}.img4:hover{
+    box-shadow: 1px 1px 10px 5px gold;    
+    
+}.img5:hover{
+    box-shadow: 1px 1px 10px 5px gold;    
+    
+}.img6:hover{
+    box-shadow: 1px 1px 10px 5px gold;    
+    
+}
+
+#hotspots{
+    background-color: rgb(0, 0, 0);
+    width: 1050px;
+    height: 110%;
+    margin-left: 9%;
+    margin-top: 123%;
+    position: absolute;
+    opacity: 95%;
+}
+
+#hotspots h1{
+    color: goldenrod;
+    text-align: center;
+    margin-top: 5%;
+    font-size: xx-large;
+}
+iframe{
+    margin-top: 8%;
+    margin-left: 21%;
+}
+
+iframe:hover{
+    box-shadow: 1px 1px 10px 5px gold;    
+
+}
+
+#contact{
+    background-color: rgb(0, 0, 0);
+    width: 1050px;
+    height: 50%;
+    margin-left: 8.5%;
+    margin-top: 190%;
+    position: absolute;
+    opacity: 95%;
+
+   
+}
+
+#contact h1{
+    color: goldenrod;
+    
+    margin-top: 5%;
+    margin-left: 39%;
+    font-size: xx-large;
+}
+.cons, .up_arrow{
+    margin-left: 2rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   /*  border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cons:hover{
+    background-image: linear-gradient(to  bottom right, yellow, rgb(0, 0, 0),rgb(129, 71, 39));
+
+}
+.icons{
+    margin-left: 277px;
+    margin-top: 10%;
+    display: flex;
+}
+
+.up_arrow{
+    margin-left: 92%;
+    margin-top: -3rem;
+   
+}
+.cons:hover i{
+    color: aliceblue;
+    animation: shake 2s infinite;
+
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+        color: goldenrod;
+    }
+    30%{
+        transform: rotate(100deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+footer{
+    margin-top: 290%   ;
+    padding: 20px;
+    height: 5rem;
+}
+
+p{
+    margin-left: 25rem;
+    color:rgb(153, 136, 92);
+    padding: 5px;
+    margin-top: 1rem;
+}
